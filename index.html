@@ -1,4 +1,4 @@
-```html
+html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -261,13 +261,13 @@
 </div>
 
 <!-- ================= AUDIO (Root Path Reference) ================= -->
-<audio id="bg-melody" src="VID_20260801_122349.mp4" loop preload="auto" autoplay></audio>
+<audio id="bg-melody" src="VID_20260801_122349.mp4" loop preload="auto" autoplay muted></audio>
   <!-- ================= HEADER ================= -->
 <header class="fixed top-0 inset-x-0 z-50 backdrop-blur-md" style="background:color-mix(in srgb, var(--ivory) 78%, transparent); border-bottom:1px solid var(--line);">
   <div class="max-w-7xl mx-auto px-5 md:px-8 h-16 md:h-20 flex items-center justify-between">
     <a href="#top" class="flex items-center gap-3 group">
       <span class="w-9 h-9 md:w-11 md:h-11 rounded-full flex items-center justify-center overflow-hidden" style="border:1px solid var(--line); background:var(--card);">
-        <img src="3208.jpg" alt="Ananya Ceta logo" onerror="this.style.display='none'; this.parentElement.querySelector('.logo-fallback').style.display='flex';" class="w-full h-full object-cover">
+        <img src="IMG-20260801-WA0000.jpg" alt="Ananya Ceta logo" onerror="this.style.display='none'; this.parentElement.querySelector('.logo-fallback').style.display='flex';" class="w-full h-full object-cover">
         <span class="logo-fallback" style="display:none; color:var(--gold); font-family:'Tiro Devanagari Sanskrit',serif; font-size:1.1rem;">ॐ</span>
       </span>
       <span class="font-display text-sm md:text-base tracking-widest" style="color:var(--ink);">ANANYA CETA</span>
@@ -317,7 +317,7 @@
 
   <!-- Background video from root folder -->
   <div class="absolute inset-0 -z-10">
-    <video autoplay muted loop playsinline class="w-full h-full object-cover opacity-[0.18]">
+    <video autoplay muted loop playsinline class="w-full h-full object-cover opacity[0.13]">
       <source src="614573511_1785563925309963.mp4" type="video/mp4">
     </video>
     <div class="absolute inset-0" style="background: radial-gradient(circle at 50% 20%, var(--glow), transparent 60%), var(--ivory); opacity:.92;"></div>
@@ -362,7 +362,7 @@
     <div class="fade-up in relative">
       <div class="hero-halo"></div>
       <button onclick="openModal('gallery-modal')" aria-label="Open sacred gallery" class="block w-full group relative rounded-[1.75rem] overflow-hidden text-left" style="border:1px solid var(--line); box-shadow:0 30px 70px -30px var(--glow);">
-        <img src="3221.jpg" alt="Lord Krishna" class="w-full aspect-[4/5] object-cover transition duration-700 group-hover:scale-105"
+        <img src="Radha-Krishna-Wallpapers.jpg" alt="Lord Krishna" class="w-full aspect-[4/5] object-cover transition duration-700 group-hover:scale-105"
           onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22750%22><rect width=%22100%25%22 height=%22100%25%22 fill=%22%23e9c48a%22/><text x=%2250%25%22 y=%2250%25%22 font-family=%22serif%22 font-size=%2228%22 fill=%22%235a3a12%22 text-anchor=%22middle%22>Krishna Darshan</text></svg>'">
         <div class="absolute inset-0 flex items-end p-6" style="background:linear-gradient(to top, rgba(0,0,0,0.55), transparent 55%);">
           <span class="font-display text-white text-xs tracking-[0.2em]" data-i18n="hero.gallery_cta">ENTER THE SACRED GALLERY →</span>
@@ -443,7 +443,7 @@
       </a>
     </div>
     <div class="order-1 lg:order-2 relative rounded-[1.5rem] overflow-hidden card-devo p-3">
-      <img src="3222.png" alt="Gita Prabhav Satsang Preview" class="w-full aspect-[5/4] object-cover rounded-xl"
+      <img src="1785570422468.png" alt="Gita Prabhav Satsang Preview" class="w-full aspect-[5/4] object-cover rounded-xl"
         onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22500%22><rect width=%22100%25%22 height=%22100%25%22 fill=%22%23f3e5ab%22/><text x=%2250%25%22 y=%2250%25%22 font-family=%22serif%22 font-size=%2224%22 fill=%22%235a3a12%22 text-anchor=%22middle%22>Gita Satsang</text></svg>'">
       <div class="om-badge absolute top-6 right-6 w-14 h-14 text-lg font-sanskrit shadow-md">श्री</div>
     </div>
@@ -498,7 +498,7 @@
 
   <div id="tab-upcoming" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
     <div class="card-devo overflow-hidden">
-      <img src="3218.jpg" alt="Janmashtami Satsang" class="w-full aspect-[4/3] object-cover" onerror="this.style.display='none'">
+      <img src="IMG-20260801-WA0000.jpg" alt="Janmashtami Satsang" class="w-full aspect-[4/3] object-cover" onerror="this.style.display='none'">
       <div class="p-6">
         <p class="text-xs font-display tracking-wide mb-1" style="color:var(--gold);">DATE TBA</p>
         <h3 class="font-display text-base mb-2">Janmashtami Satsang</h3>
@@ -508,7 +508,7 @@
           </div>
    <div id="tab-past" class="hidden grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
     <div class="card-devo overflow-hidden">
-      <img src="3219.jpg" alt="Launch of Gita Prabhav" class="w-full aspect-[4/3] object-cover" onerror="this.style.display='none'">
+      <img src="620f6277ab99b3418416a77d7d2ebe6a.jpg" alt="Launch of Gita Prabhav" class="w-full aspect-[4/3] object-cover" onerror="this.style.display='none'">
       <div class="p-6">
         <p class="text-xs font-display tracking-wide mb-1" style="color:var(--gold);">ARCHIVE</p>
         <h3 class="font-display text-base mb-2">Launch of Gita Prabhav</h3>
@@ -527,7 +527,7 @@
 
   <div class="card-devo p-6 flex items-start gap-5 mb-8">
     <span class="font-display text-xs tracking-wide pt-1" style="color:var(--gold); min-width:5.5rem;">UPDATE</span>
-    <p class="text-sm" style="opacity:.8;">Ananya Ceta is now open for new contributors — writers, designers, and developers welcome.</p>
+    <p class="text-sm" style="opacity:.8;">Ananya Ceta is now open for new contributors — writers, designers, and developers and all age group krishna bhakta(devotee) welcome.</p>
   </div>
 
   <div class="text-center">
